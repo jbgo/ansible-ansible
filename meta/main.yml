@@ -1,0 +1,17 @@
+galaxy_info:
+  author: Jordan Bach
+  description: installs Ansible on a remote host
+  company: Open Solitude, Inc.
+  min_ansible_version: 1.9
+
+  platforms:
+  - name: Ubuntu
+    versions:
+    - all
+  - name: Debian
+    versions:
+    - all
+
+  galaxy_tags: [ansible]
+
+dependencies: []
