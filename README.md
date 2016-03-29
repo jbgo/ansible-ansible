@@ -1,14 +1,12 @@
 jbgo.ansible
 ============
 
-Install Ansible with Ansible! This role installs an Ansible control node
+Install Ansible with Ansible! This role installs an Ansible control node.
 
 Variables
 --------------
 
-| var | description | default |
-|-----|-------------|---------|
-| ansible_user | The control node user for running Ansible playbooks | deploy |
+None
 
 Dependencies
 ------------
@@ -20,7 +18,7 @@ Example Playbook
 
     - hosts: servers
       roles:
-         - { role: jbgo.ansible, ansible_user: ansible, become: yes }
+         - { role: jbgo.ansible, become: yes }
 
 License
 -------

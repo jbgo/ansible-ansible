@@ -1,6 +1,6 @@
 galaxy_info:
   author: Jordan Bach
-  description: installs Ansible on a remote host
+  description: Installs Ansible on a remote host
   company: Open Solitude, Inc.
   min_ansible_version: 1.9
 
